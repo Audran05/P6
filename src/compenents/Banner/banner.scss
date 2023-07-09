@@ -1,0 +1,17 @@
+.banner{
+    max-width : 1400px;
+    width : 100%;
+    margin-left : auto;
+    margin-right : auto;
+    height: 223px; 
+    overflow: hidden;
+    margin-top: 38px;
+    margin-bottom: 38px;
+    img{
+        border-radius: 25px;
+        
+        width: calc(100% - 50px); 
+        height: 100%; 
+        object-fit: cover;
+    }
+}
